@@ -4,10 +4,15 @@
 目前系統功能如下：
 3.	透過輸入路線查詢路線票價
 4.	透過輸入路線、時間查詢目前3班最近的搭車時刻
+
 ##系統架構
+
  ![系統架構圖](static/system.jpg)
+
 使用者輸入 →API( 語意分類模型→ 分類結果→ 觸發 RAG 回答) →回傳結果給使用者
+
 補充：分類結果0為時刻表，1為票價，2為乘車時間，3為其他問題
+
 ##安裝與使用
 本專案環境說明如下：
 4.	Python 環境
@@ -53,14 +58,24 @@ fastapi使用說明如檔案，data_res.py
  📌 備註：本專案與資料提供單位無直接關聯，僅為用於個人作品用途，無商業營利。
 
 ##參考文件
+
 政府資料開放平台 - 臺北大眾捷運股份有限公司-臺北捷運系統票價：https://data.gov.tw/dataset/128418 
+
 政府資料開放平台 - 臺北大眾捷運股份有限公司-臺北捷運站別時刻表資料服務：https://data.gov.tw/dataset/131737 
+
 HuggingFace - Chinese RoBERTa (WWM EXT)：https://huggingface.co/hfl/chinese-roberta-wwm-ext 
+
 faiss - https://pypi.org/project/faiss/ 
+
 AWS-EC2：https://aws.amazon.com/tw/ec2/ 
+
 AWS-RDS：https://aws.amazon.com/tw/rds/?nc2=h_ql_prod_db_rds 
+
 將 Amazon RDS for SQL Server 資料庫執行個體與 Amazon S3 整合：
 https://docs.aws.amazon.com/zh_tw/AmazonRDS/latest/UserGuide/User.SQLServer.Options.S3-integration.html 
+
 Line-bot 參考教學影片：https://youtu.be/Mw3cODdkaFM?si=QxxWsZz6l-ooD81O
+
 Line- Messaging API reference：  https://developers.line.biz/en/reference/messaging-api/ 
+
 Python requests：https://pypi.org/project/requests/
