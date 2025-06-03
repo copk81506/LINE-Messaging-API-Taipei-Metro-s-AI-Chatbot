@@ -2,8 +2,8 @@
 ## 專案簡介
 說明：此系統開發為方便搭車台北捷運的乘客能更加快速得知捷運狀況
 目前系統功能如下：
-3.	透過輸入路線查詢路線票價
-4.	透過輸入路線、時間查詢目前3班最近的搭車時刻
+透過輸入路線查詢路線票價
+透過輸入路線、時間查詢目前3班最近的搭車時刻
 
 ##系統架構
 
@@ -15,13 +15,12 @@
 
 ##安裝與使用
 本專案環境說明如下：
-4.	Python 環境
+- Python 環境
 -	Python:3.12.8
 -	Pytorch: https://pytorch.org/get-started/locally/ 
 -	Python 套件：pip install -r requirements.txt
 -	使用Line Messaging API 需安裝套件：pip install line-bot-sdk flask
-5.	資料庫：此範例為使用AWS RDS MSSQL
-6.	Line Messaging API：
+- 資料庫：此範例為使用AWS RDS MSSQL
 -	Line- Messaging API reference：https://developers.line.biz/en/reference/messaging-api/ 
 ##使用說明
 本地測試版，只說明如何建置模型與檢索功能，資料庫與line建置請參考官方文件：
