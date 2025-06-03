@@ -1,0 +1,6 @@
+{
+    "server" : "your-server-name",       
+    "user" : "your-username",              
+    "pw" : "your-password",           
+    "database" : "your-database"
+}
